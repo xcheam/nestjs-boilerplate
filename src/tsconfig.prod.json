@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "removeComments": true
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "src/shared"
+  ]
+}

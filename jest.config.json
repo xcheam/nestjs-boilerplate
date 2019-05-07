@@ -1,0 +1,25 @@
+{
+  "testEnvironment": "node",
+  "moduleNameMapper": {
+    "^@/(.*)": "<rootDir>/src/$1"
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "js",
+    "json"
+  ],
+  "transform": {
+    ".+\\.ts": "ts-jest"
+  },
+  "testMatch": [
+    "**/*.spec.ts"
+  ],
+  "globals": {
+    "ts-jest": {
+      "tsConfig": "./test/tsconfig.json"
+    }
+  },
+  "setupFiles": [
+    "./test/setup.js"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": false,
+    "pretty": false,
+    "removeComments": false,
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./.buildcache"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
